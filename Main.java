@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("HEJKA") ;
@@ -64,8 +66,12 @@ public class Main {
             i++;
         }
 
-        Scanner input = new Scanner(System.in);
+        Scanner skan = new Scanner(System.in);
+        System.out.println("podaj kurwo liczbe ");
+            int liczb = skan.nextInt();
+            scanner.close();
 
+            System.out.println("podana liczba to "+ liczb );
 
 
 
